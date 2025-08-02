@@ -4,11 +4,24 @@ A collection of Python GUI applications for detecting and managing duplicate dat
 
 ## Features
 
-### 1. Duplicate Row Detector (`duplicates_GUI.py`)
-- Detects duplicate rows in CSV and Excel files
-- User-friendly GUI interface
-- Generates CSV files with duplicate marking
-- Supports multiple file processing
+### 1. Enhanced Duplicate Detector (`duplicates_GUI.py`)
+- Multiple detection modes:
+  - Row Detection: Identifies duplicate rows in your data
+  - Column Detection: Finds identical columns in your files
+  - Column Values Detection: Identifies duplicate values within individual columns
+- Batch Processing:
+  - Support for multiple file processing
+  - Add individual files or entire directories
+  - Process CSV and Excel files simultaneously
+- Advanced Interface:
+  - User-friendly GUI with progress tracking
+  - Detailed processing log
+  - File management tools (add, remove, clear)
+  - Customizable output directory
+- Comprehensive Results:
+  - Generates detailed reports for each detection mode
+  - Marks duplicates for easy identification
+  - Preserves original data structure
 
 ### 2. Duplicate Row Remover (`duplicates_remove_GUI.py`)
 - Removes duplicate rows from CSV files
